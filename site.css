@@ -8,7 +8,11 @@ body {
   color:#111; background:#fff;
 }
 body > * { font-size:1.4em; }
-#nav > div, h1, #content, #footer p { margin:0 auto; width:820px; }
+
+.when, a.register, #rightcol p, .leftcol p, .rightcol > a, #subheader {
+  font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;
+}
+#nav > div, h1, #content, #footer p, #subheader p { margin:0 auto; width:820px; }
 
 #nav {
   background:url("img/nav_grad.png") #333;
@@ -31,7 +35,14 @@ body > * { font-size:1.4em; }
 
 h1 { clear:left; height:94px; font-size:3em; line-height:3em; padding-left:1.3em; }
 h1 a { outline:0 none; }
-h1 + p { height:100px; }
+#subheader {
+  height:80px; margin-bottom:2.5em;
+  background-image:url("img/sub_bgr.gif");
+}
+#subheader p {
+  color:#333; padding:1.82em 1.3em 0 0;
+  font-size: 28px; text-align: right;
+}
 
 #map { height:200px; }
 
@@ -39,7 +50,6 @@ h1 + p { height:100px; }
 #leftcol, .leftcol { width:400px; float:left; margin-right:80px; }
 #rightcol, .rightcol { width:300px; overflow:hidden; }
 #rightcol, .courses { margin-right:2.8em; }
-.when, a.register, #rightcol p, .leftcol p, .rightcol > a { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; }
 
 #leftcol li { padding-bottom:.8em; margin-bottom:2em; border-bottom:1px solid #dbdbdb; }
 h2 { font-size:1.43em; margin-bottom:1em; }
