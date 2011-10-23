@@ -8,7 +8,7 @@ body {
   color:#111; background:#fff;
 }
 body > * { font-size:1.4em; }
-#header > div, h1, #content, #footer p { margin:0 auto; width:800px; }
+#header > div, h1, #content, #footer p { margin:0 auto; width:820px; }
 
 #header { background:#333; height:50px; border-bottom:1px solid #6f6d6d; }
 #header ol, #header li a { border-width:0 1px; border-style:solid; border-color:#444; }
@@ -25,31 +25,45 @@ body > * { font-size:1.4em; }
 
 h1 { clear:left; height:95px; font-size:3em; line-height:3em; padding-left:1.3em; }
 h1 a { color:inherit; outline:0 none; }
+h1 + p { height:100px; }
 
 #map { height:200px; }
 
-#leftcol { width:400px; float:left; padding-left:1.45em; margin-right:75px; }
-#rightcol { width:300px; float:right; }
-.when, a.register, #rightcol p { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; }
+#content { padding-left:3em; margin-bottom:5em; overflow:hidden; }
+#leftcol, .leftcol { width:400px; float:left; margin-right:80px; }
+#rightcol, .rightcol { width:300px; overflow:hidden; }
+#rightcol, .courses { margin-right:2.8em; }
+.when, a.register, #rightcol p, .leftcol p, .rightcol > a { font-family:Georgia, "Times New Roman", Times, serif; font-style:italic; }
 
-#leftcol li { padding-bottom:.8em; margin-bottom:2em; border-bottom:1px solid #ccc; }
+#leftcol li { padding-bottom:.8em; margin-bottom:2em; border-bottom:1px solid #dbdbdb; }
 h2 { font-size:1.43em; margin-bottom:1em; }
 .where { color:#757575; font-weight:bold; margin:.4em 0 1.2em; }
-.when, #rightcol p { color:#8f8f8f; }
-.when { width:260px; float:left; margin-top:4px; }
+.when, #rightcol p, .leftcol p { color:#8f8f8f; }
+.when { float:left; margin-top:4px; }
+#leftcol .when { width:260px; }
+.rightcol .when { width:140px; }
 a.register {
   background:#42b5e8; font-weight: bold;
   text-align:center; display:inline-block; width:140px; height: 20px; padding-top: 2px;
   border-radius:4px;
 }
-#rightcol li { border-top:1px solid #ccc; margin-bottom:2.4em; padding-top:2em; }
+a.register:hover { background:#2572b9; }
+#rightcol li { border-top:1px solid #dbdbdb; margin-bottom:2.4em; padding-top:2em; }
 #rightcol li:first-child { border-top:0 none; padding-top:0; }
 #rightcol p { line-height:1.4; }
-a.register:hover { background:#2572b9; }
+
+.courses { margin-bottom:4em; }
+.courses > li { border-top:1px solid #dbdbdb; padding-top:1.5em; margin-bottom: 3em; }
+h3 a { color:inherit; border-bottom:1px solid #999; line-height:1; }
+h3 a:hover { color:#35a7d9; border-bottom:0 none; }
+.leftcol p { font-size:16px; padding: 1.2em 0 0 1.2em; line-height:1.4; }
+.rightcol { width:280px; }
+.rightcol li { border-bottom:1px solid #dbdbdb; padding:.85em 0; }
+.rightcol > a { color:#327abd; display: block; margin-top: 0.9em; }
 
 #footer {
-  background:#262626; color:#888; font-size:12px; line-height:5;
+  background:#262626; color:#5B595A; font-size:12px; line-height:5;
   border-color:#000; border-style: solid; border-width:5px 0 110px; height:90px;
-  clear: both;
+  clear:left;
 }
-#footer p { padding-left:3em; }
+#footer p { padding-left:3.6em; }
