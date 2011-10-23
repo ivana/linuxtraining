@@ -49,11 +49,12 @@ h2 { font-size:1.43em; margin-bottom:1em; }
 #leftcol .when { width:260px; }
 .rightcol .when { width:140px; }
 a.register {
-  background:#42b5e8; font-weight:bold; color:#f3f3f3;
-  text-align:center; display:inline-block; width:140px; height: 20px; padding-top: 2px;
+  background: url("img/triangle.gif") no-repeat scroll 123px 9px #42B5E8;
+  font-weight:bold; color:#f3f3f3;
+  text-align:center; display:inline-block; width:130px; padding: 3px 7px 3px 3px;
   border-radius:4px;
 }
-a.register:hover { background:#2572b9; }
+a.register:hover { background: url("img/triangle_hover.gif") no-repeat scroll 123px 9px #2572b9; }
 #rightcol li { border-top:1px solid #dbdbdb; margin-bottom:2.4em; padding-top:2em; }
 #rightcol li:first-child { border-top:0 none; padding-top:0; }
 #rightcol p { line-height:1.4; }
