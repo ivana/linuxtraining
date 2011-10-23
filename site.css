@@ -29,7 +29,7 @@ body > * { font-size:1.4em; }
 }
 #nav input[type="submit"] { background:transparent; color:#36b0e7; padding:0 .2em; }
 
-h1 { clear:left; height:95px; font-size:3em; line-height:3em; padding-left:1.3em; }
+h1 { clear:left; height:94px; font-size:3em; line-height:3em; padding-left:1.3em; }
 h1 a { outline:0 none; }
 h1 + p { height:100px; }
 
