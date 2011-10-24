@@ -77,7 +77,7 @@ a.register:hover { background: url("img/triangle_hover.gif") no-repeat scroll 12
 #rightcol li {
 /*  border-top:1px solid #dbdbdb;*/
   margin-bottom:2.4em; padding-top:2em;
-  background: url("img/border_grad.png") no-repeat scroll 0 0 #fff; 
+  background: url("img/border_grad.png") no-repeat scroll -5px 0 #fff; 
 }
 #rightcol li:first-child { /*border-top:0 none;*/ padding-top:0; background-image:none; }
 #rightcol p { line-height:1.4; }
