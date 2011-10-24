@@ -30,7 +30,7 @@
     <div id="map">
       <img src="img/map.png" alt="map with training locations" usemap="#world"></img>
       
-      <map name="world">
+      <map name="world" id="world">
         <area alt="Location Name" title="Location Name" shape="circle" coords="122, 123, 10" />
         <area alt="Location Name" title="Location Name" shape="rect" coords="108, 130, 122, 155" />
         <area alt="Location Name" title="Location Name" shape="rect" coords="125, 130, 140, 153" />
@@ -98,9 +98,9 @@
 
     <script type="text/javascript" src="jquery-tooltip/jquery-1.2.2.min.js"></script>
     <script type="text/javascript" src="jquery-tooltip/jquery.tooltip.min.js"></script>
-    <script>
+    <script type="text/javascript">
     $(document).ready(function(){
-      $("map > area").tooltip({ left:-55,top:-40 });
+      $("area").tooltip({ left:-55,top:-40 });
     });
     </script>
   </body>
