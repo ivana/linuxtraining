@@ -36,12 +36,15 @@ body > * { font-size:1.4em; }
 
 h1 { clear:left; height:94px; font-size:3em; line-height:3em; padding-left:1.3em; }
 h1 a { outline:0 none; }
+
 #subheader {
   height:80px; margin-bottom:2.5em;
-  background-image:url("img/sub_bgr.gif");
+  background-image:url("img/find_rght.gif");
 }
+#subheader div { background-image:url("img/subheader.png"); max-width:1142px; height:80px; }
 #subheader p {
-  color:#333; padding:1.82em 1.3em 0 0;
+  position: relative; bottom: 2.9em;
+  padding: 1.82em 1.4em 0 0; color:#333;
   font-size: 28px; text-align: right;
 }
 
