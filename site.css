@@ -98,7 +98,9 @@ h3 a:hover { color:#35a7d9; border-bottom:0 none; }
 a.more { color:#327abd; display: block; margin-top: 0.9em; }
 
 .locations h3 { line-height: 1.5; padding-right: 1em; }
-.locations > li { padding-top:3em; margin-bottom:2em; }
+.locations > li { margin-bottom: 1.2em; padding-top: 2.5em; }
+.locations > li > div { display:none; }
+.locations > li:first-child > div { display:block; }
 .locations h3, .available, .available li { display:inline; }
 .available { vertical-align: top; }
 .available li { padding: 0 3px; }
@@ -109,7 +111,7 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 .classes li { border-bottom: 1px solid #DBDBDB; padding:.5em 0;}
 .locations h5 { border-bottom: 1px solid #999; color: #777; display:inline; float:left; }
 .locations h5 + div { text-align:right; }
-.locations .when { float:none; }
+.locations .when { float:none; padding-right: 1em; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
