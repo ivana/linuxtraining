@@ -88,13 +88,28 @@ a.register:hover { background: url("img/triangle_hover.gif") no-repeat scroll 12
 #rightcol p { line-height:1.4; }
 
 .courses { margin-bottom:4em; }
-.courses > li { border-top:1px solid #dbdbdb; padding-top:1.5em; margin-bottom: 3em; }
+.courses > li, .locations > li { border-top:1px solid #dbdbdb; }
+.courses > li { padding-top:1.5em; margin-bottom: 3em; }
 h3 a { border-bottom:1px solid #999; line-height:1; }
 h3 a:hover { color:#35a7d9; border-bottom:0 none; }
 .leftcol p { font-size:16px; padding: 1.2em 0 0 1.2em; line-height:1.4; }
 .rightcol { width:280px; }
 .rightcol li { border-bottom:1px solid #dbdbdb; padding:.85em 0; }
 a.more { color:#327abd; display: block; margin-top: 0.9em; }
+
+.locations h3 { line-height: 1.5; padding-right: 1em; }
+.locations > li { padding-top:3em; margin-bottom:2em; }
+.locations h3, .available, .available li { display:inline; }
+.available { vertical-align: top; }
+.available li { padding: 0 3px; }
+
+.locations h4, .classes, .more { padding-left:1.5em; }
+.locations h4 { margin:1.3em 0 .8em; }
+.classes { max-width: 680px; }
+.classes li { border-bottom: 1px solid #DBDBDB; padding:.5em 0;}
+.locations h5 { border-bottom: 1px solid #999; color: #777; display:inline; float:left; }
+.locations h5 + div { text-align:right; }
+.locations .when { float:none; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
