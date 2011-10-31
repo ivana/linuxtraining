@@ -97,16 +97,15 @@ h3 a:hover { color:#35a7d9; border-bottom:0 none; }
 .rightcol li { border-bottom:1px solid #dbdbdb; padding:.85em 0; }
 a.more { color:#327abd; display: block; margin-top: 0.9em; }
 
-.locations h3 { line-height: 1.5; padding-right: 1em; }
+.locations h3 { float: left; margin-top:4px; padding-right: 1em; }
 .locations > li { margin:0 3em 1.2em 0; padding-top:2.5em; }
 .locations > li > div { display:none; }
 .locations > li:first-child > div { display:block; }
-.locations h3, .available, .available li { display:inline; }
-.available { vertical-align: top; }
-.available li { padding: 0 3px; }
+.available { overflow: hidden; }
+.available li { float: left; padding: 0 5px; }
 
 .locations h4, .classes, .more { padding-left:1.5em; }
-.locations h4 { margin:1.3em 0 .8em; }
+.locations h4 { margin:1.3em 0 .8em; clear: left; }
 .classes { max-width: 680px; }
 .classes li { border-bottom: 1px solid #DBDBDB; padding:.5em 0;}
 .locations h5 { border-bottom: 1px solid #999; color: #777; display:inline; float:left; }
