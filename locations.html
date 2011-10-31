@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <title>LinuxTraining.com</title>
+    <link href="jquery-tooltip/jquery.tooltip.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="site.css" />
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
     <meta name="Author" content="Ivana Vasilj" lang="hr" />
@@ -353,6 +354,8 @@
         $($($(this).closest('.locations > li')[0]).children('li > div')[0]).toggle('slow');
         return false;
       });
+
+      $('.available img').tooltip({showURL:false, left:-90,top:-50 });
     });
     </script>
   </body>
