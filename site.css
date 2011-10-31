@@ -9,7 +9,7 @@ body {
 }
 body > * { font-size:1.4em; }
 
-.when, a.register, #rightcol p, .leftcol p, .rightcol > a, #subheader {
+.when, a.register, #rightcol p, .leftcol p, a.more, #subheader {
   font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;
 }
 #nav > div, h1, #map + #content > div, #subheader + #content, #footer p, #subheader p { margin:0 auto; width:820px; }
@@ -94,7 +94,7 @@ h3 a:hover { color:#35a7d9; border-bottom:0 none; }
 .leftcol p { font-size:16px; padding: 1.2em 0 0 1.2em; line-height:1.4; }
 .rightcol { width:280px; }
 .rightcol li { border-bottom:1px solid #dbdbdb; padding:.85em 0; }
-.rightcol > a { color:#327abd; display: block; margin-top: 0.9em; }
+a.more { color:#327abd; display: block; margin-top: 0.9em; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
