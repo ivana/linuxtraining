@@ -98,7 +98,7 @@ h3 a:hover { color:#35a7d9; border-bottom:0 none; }
 a.more { color:#327abd; display: block; margin-top: 0.9em; }
 
 .locations h3 { line-height: 1.5; padding-right: 1em; }
-.locations > li { margin-bottom: 1.2em; padding-top: 2.5em; }
+.locations > li { margin:0 3em 1.2em 0; padding-top:2.5em; }
 .locations > li > div { display:none; }
 .locations > li:first-child > div { display:block; }
 .locations h3, .available, .available li { display:inline; }
@@ -112,6 +112,15 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 .locations h5 { border-bottom: 1px solid #999; color: #777; display:inline; float:left; }
 .locations h5 + div { text-align:right; }
 .locations .when { float:none; padding-right: 1em; }
+
+#pagination { padding: 6em 0 4em; overflow:hidden; border-top: 1px solid #DBDBDB; }
+#pagination li { float: left; margin-right: 1px; }
+#pagination li a {
+  background:#42B5E8; color:#f3f3f3; border-radius:4px;
+  display:inline-block; width:22px; height:22px; text-align:center; line-height:1.5;
+}
+#pagination li a:hover { background:#2572b9; }
+
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
