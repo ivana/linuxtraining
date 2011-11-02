@@ -120,6 +120,9 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 }
 #pagination li a:hover { background:#2572b9; }
 
+.loc h2 { font-size:18px; margin-bottom: 0.6em; }
+.loc .locations h3 { float:none; margin-bottom: 1em; }
+.loc .locations > li { padding-top: 1.2em; margin-bottom: 2em; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
