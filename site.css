@@ -9,7 +9,7 @@ body {
 }
 body > * { font-size:1.4em; }
 
-.when, a.register, #rightcol p, .leftcol p, a.more, #subheader {
+.when, a.register, #rightcol p, .leftcol p, a.more, #subheader, #contact {
   font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;
 }
 #nav > div, h1, #map + #content > div, #subheader + #content, #footer p, #subheader p { margin:0 auto; width:820px; }
@@ -120,9 +120,32 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 }
 #pagination li a:hover { background:#2572b9; }
 
-.loc h2 { font-size:18px; margin-bottom: 0.6em; }
-.loc .locations h3 { float:none; margin-bottom: 1em; }
+.loc h2 {
+  background: url("img/loc.png") no-repeat scroll 0 0 #FFF;
+  font-size: 18px; line-height: 1.8;
+  margin-bottom: 0.3em; padding-left: 1.8em;
+}
+.loc .locations h3 { float:none; margin-bottom: 1em; padding-left: 2.3em; line-height: 1.9; }
+.live h3 { background: url("img/classes/live.png") no-repeat scroll 0 0 #fff; }
+.remote h3 { background: url("img/classes/remote.png") no-repeat scroll 0 0 #fff; }
 .loc .locations > li { padding-top: 1.2em; margin-bottom: 2em; }
+.loc .classes, .loc .more { padding-left:2.4em; }
+
+#contact {
+  border-top:1px solid #dbdbdb; color:#6b6b6b;
+  padding-top: 1.3em; width: 780px; margin-bottom: 10em; overflow: hidden;
+}
+#contact iframe { float:left; margin-top: 0.4em; }
+#contact > dl, #contact p { margin-left: 480px; }
+#contact > dl {
+  border-bottom: 1px solid #DBDBDB; padding-bottom: 2em;
+  font-size: 16px; line-height: 1.4;
+}
+#contact dd dl dt { float:left; margin-right: 4px; }
+#contact p { font-size:12px; line-height: 1.5; padding: 0.7em 0; }
+#contact p a { color:#6b6b6b; text-decoration:underline; }
+#contact p a:hover { text-decoration:none; }
+a.email { color:#159edb; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
