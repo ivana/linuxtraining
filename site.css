@@ -1,4 +1,4 @@
-* { margin:0; padding:0; border:0; font-size:100% }
+* { margin:0; padding:0; font-size:100% }
 ol, ul { list-style:none }
 
 a { text-decoration:none; color:#111; }
@@ -9,7 +9,7 @@ body {
 }
 body > * { font-size:1.4em; }
 
-.when, a.register, #rightcol p, .leftcol p, a.more, #subheader, #contact {
+.when, a.register, #rightcol p, .leftcol p, a.more, #subheader, #contact, #content > .vcard {
   font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;
 }
 #nav > div, h1, #map + #content > div, #subheader + #content, #footer p, #subheader p { margin:0 auto; width:820px; }
@@ -32,7 +32,7 @@ body > * { font-size:1.4em; }
   color:#bcbcbc; border:1px solid #000;
   padding:2px 5px; width:160px; height:20px;
 }
-#nav input[type="submit"] { background:transparent; color:#36b0e7; padding:0 .2em; }
+#nav input[type="submit"] { background:transparent; color:#36b0e7; padding:0 .2em; border:0 none; }
 
 h1 { clear:left; height:94px; font-size:3em; line-height:3em; padding-left:1.3em; }
 h1 a { outline:0 none; }
@@ -137,7 +137,7 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 }
 #contact iframe { float:left; margin-top: 0.4em; }
 #contact > dl, #contact p { margin-left: 480px; }
-#contact > dl {
+#contact > dl, #content > .vcard {
   border-bottom: 1px solid #DBDBDB; padding-bottom: 2em;
   font-size: 16px; line-height: 1.4;
 }
@@ -146,6 +146,15 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 #contact p a { color:#6b6b6b; text-decoration:underline; }
 #contact p a:hover { text-decoration:none; }
 a.email { color:#159edb; }
+
+.vcard h2, .vcard h3 { font-size:16px; color:#222; margin-bottom:.1em; }
+#content > .vcard { color:#6b6b6b; margin-top: 3em; }
+#content > .vcard > div:first-child { float: left; padding-right: 10%; width: 40%; height: 200px; }
+#content > .vcard .adr { float: left; margin:0 6% 1em 0; }
+#content > .vcard .adr + div { height:112px; }
+
+#contactform { background:#f4f4f4; }
+#contactform label { font-weight:bold; color:#222; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
