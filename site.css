@@ -149,26 +149,27 @@ a.more { color:#327abd; display: block; margin-top: 0.9em; }
 a.email { color:#159edb; }
 
 .vcard h2, .vcard h3 { font-size:16px; color:#222; margin-bottom:.1em; }
-#content > .vcard { color:#6b6b6b; margin-top: 3em; }
-#content > .vcard > div:first-child { float: left; padding-right: 10%; width: 40%; height: 200px; }
-#content > .vcard .adr { float: left; margin:0 6% 1em 0; }
+#content > .vcard { color:#6b6b6b; margin-top:3em; width: 780px; }
+#content > .vcard > div:first-child { float: left; padding-right: 10%; width: 41%; height: 200px; }
+#content > .vcard .adr { float: left; margin:0 9% 1em 0; }
 #content > .vcard .adr + div { height:112px; }
 
-#contactform { background:#f4f4f4; margin:1em 0 4em; padding:.5em 2.5em; width:750px; }
+#contactform { background:#f4f4f4; margin:1em 0 4em; padding:.5em 2.5em; width:710px; }
 #contactform label {
   font-weight:bold; color:#222;
-  padding-right: 1em; display:inline-block; width: 130px; text-align: right;
+  padding-right: 1em; display:inline-block; width: 110px; text-align: right;
 }
 #contactform select { width:350px; }
 #contactform p { border-top:1px solid #dbdbdb; padding: 1.7em 0; }
 #contactform p:first-child { border-top:0 none; }
-#contactform textarea { height: 150px; vertical-align: top; width: 532px; }
+#contactform p:first-child label { width: 130px; margin-left:-20px; }
+#contactform textarea { height: 150px; vertical-align: top; width: 510px; }
 #contactform #captcha + img { padding: 0 0 7px 7px; vertical-align: middle; }
 #contactform input[type="text"] { width:185px; }
 #contactform input[type="submit"] {
   background:#42B5E8; font-weight:bold; color:#f3f3f3; text-align:center;
   border:0 none; border-radius:4px;
-  width:140px; padding:6px; margin-left: 150px;
+  width:140px; padding:6px; margin-left: 130px;
   font-size:18px;
 }
 
