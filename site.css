@@ -154,7 +154,7 @@ a.email { color:#159edb; }
 #content > .vcard .adr { float: left; margin:0 6% 1em 0; }
 #content > .vcard .adr + div { height:112px; }
 
-#contactform { background:#f4f4f4; margin:1em 0 4em; padding:.5em 2.5em; }
+#contactform { background:#f4f4f4; margin:1em 0 4em; padding:.5em 2.5em; width:750px; }
 #contactform label {
   font-weight:bold; color:#222;
   padding-right: 1em; display:inline-block; width: 130px; text-align: right;
