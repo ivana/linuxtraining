@@ -9,7 +9,7 @@ body {
 }
 body > * { font-size:1.4em; }
 
-.when, a.register, #rightcol p, .leftcol p, a.more, #subheader, #contact, #content > .vcard,  #contactform input[type="submit"] {
+.when, a.register, #rightcol p, .leftcol p, a.more, #subheader, #contact, #content > .vcard,  #contactform input[type="submit"], .price {
   font-family:Georgia, "Times New Roman", Times, serif; font-style:italic;
 }
 #nav > div, h1, #map + #content > div, #subheader + #content, #footer p, #subheader p { margin:0 auto; width:820px; }
@@ -172,6 +172,24 @@ a.email { color:#159edb; }
   width:140px; padding:6px; margin-left: 130px;
   font-size:18px;
 }
+
+#coursesform { border-bottom:1px solid #dbdbdb; margin-bottom: 2.5em; padding:.7em 0; }
+#coursesform select { margin:0 2em .3em .1em; vertical-align:middle; }
+#coursesform, #coursesform + table { width:780px; }
+
+#coursesform + table { border-collapse: collapse; margin-bottom:7em; }
+#coursesform + table thead { border-bottom:1px solid #777; }
+#coursesform + table th { text-align:left; padding-bottom:3px; }
+#coursesform + table th img { vertical-align:middle; padding-bottom: 4px; }
+#coursesform + table tbody tr { border-bottom:1px solid #bbb; }
+#coursesform + table tbody td { padding:1em 0; }
+#coursesform + table tbody td:first-child { color:#777; font-weight:bold; padding-top: 1.3em; width:41%; }
+#coursesform + table .available { margin-top:.8em; }
+#coursesform + table .when { line-height:1.5; }
+#coursesform + table .price, #coursesform + table .price + td { vertical-align:top; }
+#coursesform + table .price { padding:1.4em 0 1em 5px; }
+#coursesform + table .price + td { text-align: right; width: 12%; padding-top: 1.25em; }
+.price { font-weight: bold; color:#444; }
 
 #footer {
   background:#262626; color:#5B595A; font-size:12px; line-height:5;
